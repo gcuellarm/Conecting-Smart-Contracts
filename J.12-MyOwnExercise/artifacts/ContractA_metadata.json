@@ -1,0 +1,170 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractD_",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "contractC_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contractB",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "contractC",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "contractD",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractB_",
+						"type": "address"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newFee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from_",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount_",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/J.12-EjemploPractico/ContractA.sol": "ContractA"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/J.12-EjemploPractico/ContractA.sol": {
+			"keccak256": "0x454d1e2074fcda9eb144bf66c9b833dc8d22ab9e054953b10931c38d7c93753f",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://2c7b81488ee7c73a8de24e7523d14cdd8280c2b8837053f5f450482daf27af9d",
+				"dweb:/ipfs/QmXAcgNDR3obonvT9aizJJxRicPYuZGg7Kftpb3uS5pouL"
+			]
+		},
+		"Bloque 4 Remix/J.12-EjemploPractico/interfaces/IFee.sol": {
+			"keccak256": "0x0419de36c33f4f19edf7c2693513e1397d4dd2592c7413af77577465455ef043",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://2dc0b8288d38a20ae3d1642bc2ca1800dec26b2e36751ac46647add5c958e075",
+				"dweb:/ipfs/Qma46pP3aCDBB1bHfYLYUpdL4N827i8Eva4ZBkgGo6qks6"
+			]
+		}
+	},
+	"version": 1
+}

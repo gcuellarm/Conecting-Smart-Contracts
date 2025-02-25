@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/Sender/Sender.sol": "Sender"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/Sender/Sender.sol": {
+			"keccak256": "0x88fa53ff41ae7630d1fea0d3f7533c20f31b7bd678e1bd986b0115d3082ad148",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://7d757f1ffa0c26da42113d9256c28b1cbc984ba32bb89e4123e0da31df48f8ed",
+				"dweb:/ipfs/QmevdYDpiaZNTyHQdh1C5JZVB8NTCRNf6PLvzdAZGP8yPn"
+			]
+		}
+	},
+	"version": 1
+}

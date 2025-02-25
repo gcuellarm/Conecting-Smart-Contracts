@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount_",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/H.10-WithdrawEther/PayableContractV2.sol": "PayableContractV2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/H.10-WithdrawEther/PayableContractV2.sol": {
+			"keccak256": "0x917fdbac89fb4f8c7ce7e9ec2babdb85e81b4b01c1ad73bc3ad4cb68985b12df",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://347cb59d86d0d56708025d8d9c79793284acab76038ce78ae80d5c6ebfdb847a",
+				"dweb:/ipfs/QmSNh4XqGrbJf7ocVAgxZ8nALgRdEc8mxermAA4rfWksVG"
+			]
+		}
+	},
+	"version": 1
+}

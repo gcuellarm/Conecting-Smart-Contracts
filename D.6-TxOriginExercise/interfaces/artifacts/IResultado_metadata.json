@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newFee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num_",
+						"type": "uint256"
+					}
+				],
+				"name": "setResult",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/6-TxOriginPractico/interfaces/IResultado.sol": "IResultado"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/6-TxOriginPractico/interfaces/IResultado.sol": {
+			"keccak256": "0xe93cceefa83258a0b71aa6316f0e254977b9c0bf9c6b26908fc769f62f444dd8",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://c3847e0edadb957f5caff26aef740b6edccef02d757800f497534111b586ad42",
+				"dweb:/ipfs/QmQaxmNeEN4NTZioUQYbqEgqVaobDMmRTeEmkkHGTbnd8Z"
+			]
+		}
+	},
+	"version": 1
+}

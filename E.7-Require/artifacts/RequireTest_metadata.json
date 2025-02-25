@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "admin_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkAdmin",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkAdminRequire",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/7-Require/RequireTest.sol": "RequireTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/7-Require/RequireTest.sol": {
+			"keccak256": "0xbe1ef535c97b5a002c7e1dc0e1bc2f91d61dfdc851dd7b0d39c5314cad86f895",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://98d13c0ffd5605a5b8ff64e6b07ac0df0dcc8e036b6e21d1bf4570e4b32d2d85",
+				"dweb:/ipfs/QmYE1Q6DyWUHra2CdTHBky72JBqExJRqawxuNFkFqRyktg"
+			]
+		}
+	},
+	"version": 1
+}

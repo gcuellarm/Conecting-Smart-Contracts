@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount_",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/I.11-SendTransferCall/SendTransferCall.sol": "PayableContractV2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/I.11-SendTransferCall/SendTransferCall.sol": {
+			"keccak256": "0x6935b8db9b1cd734a572c479263d76ec1dab51b4714caf52685f9c1402fb3169",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://e31fb258d1c260d3fbf91e38da4caa77994103b542305eb0a0575ff78438eff2",
+				"dweb:/ipfs/QmfKD6CebTBUdbP186G6sSMatSSLq2vKezCTu3M9Jsi5xX"
+			]
+		}
+	},
+	"version": 1
+}

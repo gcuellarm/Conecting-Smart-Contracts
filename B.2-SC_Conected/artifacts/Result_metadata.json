@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num_",
+						"type": "uint256"
+					}
+				],
+				"name": "setResult",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/2-SC_Conected/Result.sol": "Result"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/2-SC_Conected/Result.sol": {
+			"keccak256": "0x6cc8d7f62f2a8395b24d2e94274345683747fe1f2275bbe0ecf9f21ac4816665",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://dda5077ab1f0f709060ca576de9524e9c653fd6adfa5894ba60eb334f0aced89",
+				"dweb:/ipfs/QmXxk6UM9G2igcbifrRCgfFJYBhMX2gsyomC8joGdf3Q4V"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newFee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/J.12-EjemploPractico/interfaces/IFee.sol": "IFee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/J.12-EjemploPractico/interfaces/IFee.sol": {
+			"keccak256": "0x78a8a395c13892206489fc478dc7861e53ba7cf9d63690b48d23d6f52e75f962",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://b7e60763ce368da6b36e090dfdc1b70c97c6b1e0b95a99fdb55ec0fcb80a9e36",
+				"dweb:/ipfs/QmewcHHTgz1GbWUhhvXb64XqZ1BJ3gkGmFZToCZyLhjBzy"
+			]
+		}
+	},
+	"version": 1
+}

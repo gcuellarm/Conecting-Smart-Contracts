@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "result_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2_",
+						"type": "uint256"
+					}
+				],
+				"name": "suma",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/B.2-SC_Conected/Addition.sol": "Addition"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/B.2-SC_Conected/Addition.sol": {
+			"keccak256": "0x170a176b5a7de970bf5503d2b82e7729a5d93128c95c085e85c3459f309bde37",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://f40694b3a7e95b9cfd9b9bd22b9732d0dfe82040a2ae8fb2771440533b96e9b4",
+				"dweb:/ipfs/QmStcf69dDHWA53LYJxdWhqougZdVzRdF1k5cHqKmxcdPW"
+			]
+		},
+		"Bloque 4 Remix/B.2-SC_Conected/interfaces/IResultado.sol": {
+			"keccak256": "0x1ea771106cb3c2f8921daaa067bbf14fb5895dca6598544b14819c0bdf2aea05",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://3888dcbeb5ec990a79b648c434d628a4da36b7460e57152aa023aa79fad6f86a",
+				"dweb:/ipfs/QmUf8JB7w7RXy9eWtkxvyGf5XQC53hFMX1n2HybVqbvWEp"
+			]
+		}
+	},
+	"version": 1
+}
